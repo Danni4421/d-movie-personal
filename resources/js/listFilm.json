@@ -1,0 +1,90 @@
+{
+    "feature": [
+        {
+            "key": 1,
+            "imageKey": 1,
+            "slug": "the-batman-in-love",
+            "name": "The Batman in Love",
+            "category": "Comedy",
+            "rating": 4.2
+        },
+        {
+            "key": 2,
+            "imageKey": 2,
+            "slug": "despicable-me",
+            "name": "Despicable Me",
+            "category": "Action",
+            "rating": 4.9
+        },
+        {
+            "key": 3,
+            "imageKey": 3,
+            "slug": "train-dragons-2",
+            "name": "Train Dragons II",
+            "category": "Love",
+            "rating": 4.5
+        },
+        {
+            "key": 4,
+            "imageKey": 1,
+            "slug": "the-batman-in-love",
+            "name": "The Batman in Love",
+            "category": "Comedy",
+            "rating": 4.2
+        },
+        {
+            "key": 5,
+            "imageKey": 2,
+            "slug": "despicable-me",
+            "name": "Despicable Me",
+            "category": "Action",
+            "rating": 4.9
+        },
+        {
+            "key": 6,
+            "imageKey": 3,
+            "slug": "train-dragons-2",
+            "name": "Train Dragons II",
+            "category": "Love",
+            "rating": 4.5
+        }
+    ],
+
+    "browse": [
+        {
+            "key": 1,
+            "slug": "meong-golden",
+            "name": "Meong Golden",
+            "desc": "Horror",
+            "img": "/images/browse-1.png"
+        },
+        {
+            "key": 2,
+            "slug": "strange",
+            "name": "Strange",
+            "desc": "2022",
+            "img": "/images/browse-2.png"
+        },
+        {
+            "key": 3,
+            "slug": "fornite",
+            "name": "Fornite",
+            "desc": "2022",
+            "img": "/images/browse-3.png"
+        },
+        {
+            "key": 4,
+            "slug": "kings-queen",
+            "name": "King's Queen",
+            "desc": "2022",
+            "img": "/images/browse-4.png"
+        },
+        {
+            "key": 5,
+            "slug": "morbius",
+            "name": "Morbius",
+            "desc": "2022",
+            "img": "/images/browse-5.png"
+        }
+    ]
+}
