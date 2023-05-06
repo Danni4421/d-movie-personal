@@ -11,7 +11,7 @@ Button.propTypes = {
         "warning",
         "danger",
         "light-outline",
-        "black-outline",
+        "white-outline",
     ]),
 };
 
