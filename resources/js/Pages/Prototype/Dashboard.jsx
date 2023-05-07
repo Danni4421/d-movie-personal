@@ -2,7 +2,7 @@ import Flickity from "react-flickity-component";
 import { Head } from "@inertiajs/react";
 import Authenticated from "@/Pages/Auth/Authenticated/Index";
 import FeaturedMovie from "@/Components/FeaturedMovie";
-import { feature, browse } from "./../../listFilm.json";
+import { feature, browse } from "/public/data/listFilm";
 import Card from "@/Components/Card";
 
 export default function Dashboard() {
