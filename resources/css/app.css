@@ -1,3 +1,107 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flex::before,
+.flex::after {
+    display: none !important;
+}
+
+@layer components {
+    /* Input */
+
+    [type="text"],
+    [type="email"],
+    [type="url"],
+    [type="password"],
+    [type="number"],
+    [type="date"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="search"],
+    [type="tel"],
+    [type="time"],
+    [type="week"],
+    [multiple],
+    textarea,
+    select {
+        border-color: transparent;
+    }
+
+    [type="text"]:focus,
+    [type="email"]:focus,
+    [type="url"]:focus,
+    [type="password"]:focus,
+    [type="number"]:focus,
+    [type="date"]:focus,
+    [type="datetime-local"]:focus,
+    [type="month"]:focus,
+    [type="search"]:focus,
+    [type="tel"]:focus,
+    [type="time"]:focus,
+    [type="week"]:focus,
+    [multiple]:focus,
+    textarea:focus,
+    select:focus {
+        border-color: transparent;
+        --tw-ring-color: transparent;
+    }
+
+    /* Content */
+
+    .side-link {
+        @apply flex items-center font-normal text-black text-sm w-full mb-5 gap-3 transition-all;
+    }
+
+    .side-link svg {
+        @apply text-[#B7B7B7];
+    }
+    .side-link.active {
+        @apply font-semibold border-r-[3px] border-alerange;
+    }
+
+    .side-link.active svg {
+        @apply text-alerange;
+    }
+
+    input.top-search {
+        @apply rounded-full border border-gray-2 placeholder:text-gray-1 text-base text-gray-1 px-5 py-[11px]
+        w-full max-w-[570px] focus:outline-none focus:ring-2 transition-all bg-no-repeat bg-center
+        bg-[center_right_20px];
+    }
+}
+
+/* Buttons */
+.btn-primary {
+    @apply bg-alerange text-white;
+}
+
+.btn-warning {
+    @apply bg-yellow-300 text-white;
+}
+
+.btn-danger {
+    @apply bg-red-500 text-white;
+}
+
+.btn-light-outline {
+    @apply text-white border border-white;
+}
+
+.btn-white-outline {
+    @apply text-black border border-[#F1F1F1];
+}
+
+/* Inputs */
+.input-error {
+    @apply ring-red-600;
+}
+
+.input-primary {
+    @apply focus:bg-form-bg bg-form-bg focus:outline-none;
+}
+
+.input-primary-outline {
+    @apply bg-[#fff] focus:bg-[#fff] border-alerange focus:border-alerange;
+    @apply file:bg-alerange file:text-white file:rounded-md file:p-2;
+}
